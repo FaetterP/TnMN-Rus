@@ -103,22 +103,22 @@ func abducius() -> void:
 	elif Global.language == ENGLISH_VALUE:
 		apart_number = "F01-03"
 		if randi_range(0,1) == 0:
-			entry_request_reason = "I am a resident of this astral circle, I went out to mutilate."
+			entry_request_reason = "Я житель этого астрального круга, вышел чтобы кого-то изуродовать."
 		else:
-			entry_request_reason = "I am a resident of this astral circle, my apartment is number 03 on the first floor."
-		hello_text = ["Greetings, human."]
-		id_text = ["I could mutilate your eyes right now, it seems like they're not working well or you can't see that my ID is correct."]
-		id_not_show_text = ["Here is my ID."]  
-		entry_text = ["My entry request is perfect."]
-		entry_not_show_text = ["Here is my entry request."]
-		appearance_text = ["My appearance? Everything is perfect with my appearance."]
-		today_list_text = ["Don't waste my time, human. Of course I'm on the list."]
+			entry_request_reason = "Я житель этого астрального круга, моя квартира номер 03 на первом этаже."
+		hello_text = ["Приветствую, человек."]
+		id_text = ["Я могу сейчас изуродовать твои глаза, кажется они плохо работают, или ты не видишь, что мое удостоверение в порядке."]
+		id_not_show_text = ["Вот мое удостоверение."]
+		entry_text = ["Мой запрос на вход идеальный."]
+		entry_not_show_text = ["Вот мой запрос на вход."]
+		appearance_text = ["Моя внешность? С моей внешностью все в отлично."]
+		today_list_text = ["Не трать мое время, человек. Конечно, я в списке."]
 		if randi_range(0,1) == 0:
-			not_today_list_text = ["I'm not on the list because I had to do an emergency mutilation."]
+			not_today_list_text = ["Меня нет в списке, потому что мне пришлось срочно кого-то изуродовать."]
 		else:
-			not_today_list_text = ["There must be a mistake because I should indeed be on the list. I believe someone will be mutilate for this."]
-		exit_text = ["Finally."]
-		repeat_question = ["I've already answered your question, human."]
+			not_today_list_text = ["Должно быть, это ошибка, потому что я действительно должен быть в списке. Думаю, кто-то будет за это изуродован."]
+		exit_text = ["Наконец-то."]
+		repeat_question = ["Я уже ответил на твой вопрос, человек."]
 	else:
 		apart_number = "F01-03"
 		if randi_range(0,1) == 0:
@@ -304,49 +304,49 @@ func _record_update() -> void:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Nombre falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong name"
+						Global.doppels_info += "Неверное имя"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的名字"
 				1:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Número de id falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong ID number"
+						Global.doppels_info += "Неверный номер удостверения"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的身份证号码"
 				2:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Fecha de expiración"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Expiration date"
+						Global.doppels_info += "Дата просрочилась"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "过期日期"
 				3:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Cicatriz falsa"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong scar"
+						Global.doppels_info += "Неправильный шрам"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的疤痕"
 				4:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Boca falsa"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong mouth"
+						Global.doppels_info += "Неправильный рот"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的嘴巴"
 				5:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Ojos falsos"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong eyes"
+						Global.doppels_info += "Неправильные глаза"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的眼睛"
 				_:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Logo DDD falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Fake DDD logo"
+						Global.doppels_info += "Неправильный логотип DDD"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "伪造的DDD标志"
 			get_parent().get_parent().set_game_over(true)
