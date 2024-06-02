@@ -6,28 +6,28 @@ const CAMERA_MAX_X = 1150
 const CAMERA_MIN_X = 780
 const CAMERA_MAX_Y = 590
 const CAMERA_MIN_Y = 480
-const PLAY_BUTTON_ENGLISH = "Play"
+const PLAY_BUTTON_ENGLISH = "Играть"
 const PLAY_BUTTON_SPANISH = "Jugar"
 const PLAY_BUTTON_CHINESE = "玩"
-const RECORD_BUTTON_ENGLISH = "Record"
+const RECORD_BUTTON_ENGLISH = "Рекорды"
 const RECORD_BUTTON_SPANISH = "Registro"
 const RECORD_BUTTON_CHINESE = "记录"
-const OPTIONS_BUTTON_ENGLISH = "Options"
+const OPTIONS_BUTTON_ENGLISH = "Настройки"
 const OPTIONS_BUTTON_SPANISH = "Opciones"
 const OPTIONS_BUTTON_CHINESE = "设置"
-const QUIT_BUTTON_ENGLISH = "Quit"
+const QUIT_BUTTON_ENGLISH = "Выход"
 const QUIT_BUTTON_SPANISH = "Salir"
 const QUIT_BUTTON_CHINESE = "退出游戏"
-const CLICK_TEXT_ENGLISH = "   Click to continue"
+const CLICK_TEXT_ENGLISH = "Нажмите, чтобы продолжить"
 const CLICK_TEXT_SPANISH = "Click para continuar"
 const ClICK_TEXT_CHINESE = "        点击继续"
-const OPTIONS_SOUND_ENGLISH = "Sound"
+const OPTIONS_SOUND_ENGLISH = "Звук"
 const OPTIONS_SOUND_SPANISH = "Sonido"
 const OPTIONS_SOUND_CHINESE = "声音"
-const OPTIONS_MUSIC_ENGLISH = "Music"
+const OPTIONS_MUSIC_ENGLISH = "Музыка"
 const OPTIONS_MUSIC_SPANISH = "Música"
 const OPTIONS_MUSIC_CHINESE = "音乐"
-const OPTIONS_SIZE_ENGLISH = "Fullscreen"
+const OPTIONS_SIZE_ENGLISH = "Полный экран"
 const OPTIONS_SIZE_SPANISH = "Pantalla completa"
 const OPTIONS_SIZE_CHINESE = "全屏"
 const ENGLISH_VALUE = 0
@@ -50,7 +50,7 @@ const OPTIONS_FOLDER_FINAL_POS = Vector2(-850,0)
 const SIZE_960X540 = Vector2i(960, 540)
 const SIZE_1280X720 = Vector2i(1280, 720)
 const SIZE_1920X1080 = Vector2i(1920, 1080)
-const CREDITS_ENGLISH = "Developed by Ignacio Alvarado
+const CREDITS_ENGLISH = "Создатель: Ignacio Alvarado
 
 Engine: Godot 4
 
@@ -106,22 +106,22 @@ Mastered
 89bpm" 
 const MIN_SLIDER_POS_X = 2290
 const MAX_SLIDER_POS_X = 2716
-const TEXT_FOR_SOUNDS_ENGLISH = "Text for 
-sounds"
+const TEXT_FOR_SOUNDS_ENGLISH = "Текст для 
+звуков"
 const TEXT_FOR_SOUNDS_SPANISH = "Texto para
 sonidos "
 const TEXT_FOR_SOUNDS_CHINESE = "重要音效的文字"
-const TEXT_FOR_COLORS_ENGLISH = "Text for
-colors"
+const TEXT_FOR_COLORS_ENGLISH = "Текст для
+цветов"
 const TEXT_FOR_COLORS_SPANISH = "Texto para
 colores "
 const TEXT_FOR_COLORS_CHINESE = "显示重要颜色的文本"
 const TEXT_COLOR_HOW_TO_SPANISH = "Apagar luces
 intermitentes"
-const TEXT_COLOR_HOW_TO_ENGLISH = "Turn off flashing
-lights"
+const TEXT_COLOR_HOW_TO_ENGLISH = "Выключить
+фонари"
 const TEXT_COLOR_HOW_TO_CHINESE = "关闭闪烁灯"
-const CREDITS_CHAR_ENGLISH = "Original characters design
+const CREDITS_CHAR_ENGLISH = "Дизайн персонажей
 
 By Isaac Alvarado:
 *Robertsky and Albertsky Peachman
@@ -188,7 +188,7 @@ const PLAY_BUTTON_CHINESE_POS = Vector2(1738,45)
 const RECORD_BUTTON_CHINESE_POS = Vector2(1677,227)
 const OPTIONS_BUTTON_CHINESE_POS = Vector2(1670,406)
 const ARCADE_TITLE_SPANISH = "Modo Arcade"
-const ARCADE_TITLE_ENGLISH = "Arcade Mode"
+const ARCADE_TITLE_ENGLISH = "Аркадный режим"
 const ARCADE_TITLE_CHINESE = "街机模式"
 const ARCADE_TEXT_SPANISH = "* Los doppelgangers que dejas 
 entrar no te asesinan inmediatamente 
@@ -199,15 +199,15 @@ de acuerdo a tu desempeño.
 
 * Posibilidad de encontrar y completar el
 cuestionario de Chester."
-const ARCADE_TEXT_ENGLISH = "* The doppelgangers you let in don't
-kill you immediately but at the end
-of the run.
+const ARCADE_TEXT_ENGLISH = "* Доппельгангеры, которых ты
+впустил, убивают тебя не сразу, а
+в конце игры.
 
-* Get a score rank at the end of the 
-run according to your performance.
+* Получите счёт в конце игры в зависимости 
+от своего прогресса.
 
-* Possibility to find and complete the
-chester's quiz."
+* Возможно найти и завершить
+викторину честера."
 const ARCADE_TEXT_CHINESE = "* 你允许进入建筑物的伪人不会立即杀死你
 但会在游戏结束时。
 
@@ -217,50 +217,50 @@ const ARCADE_TEXT_CHINESE = "* 你允许进入建筑物的伪人不会立即杀�
 * 有可能找到并完成切斯特的问答。"
 const COMING_SOON_TITLE_SPANISH = "¡El D.D.D. está trabajando 
 en ello!"
-const COMING_SOON_TITLE_ENGLISH = "The D.D.D. is working 
-on it!"
+const COMING_SOON_TITLE_ENGLISH = "Команда D.D.D. уже работает 
+над этим!"
 const COMING_SOON_TITLE_CHINESE = "D.D.D. 正在努力中！"
 const CONTEXT_SPANISH = "Próximamente habrá más modos 
 de juego, pero puede llevar algún 
 tiempo así que porfavor se paciente.
 
 Gracias por su comprensión."
-const CONTEXT_ENGLISH = "Coming soon there will be 
-more game modes, but it may take 
-some time so please be patient. 
+const CONTEXT_ENGLISH = "В скором времени появятся 
+новые режимы, но это занимает время, 
+так что будьте терпеливее. 
 
-Thank you for your understanding."
+Спасибо за понимание."
 const CONTEXT_CHINESE = "即将推出更多游戏模式
 但可能需要一些时间，请耐心等待。
 
 感谢您的理解。"
 const MENU_BUTTON_SPANISH = "Menú"
-const MENU_BUTTON_ENGLISH = "Menu"
+const MENU_BUTTON_ENGLISH = "Меню"
 const MENU_BUTTON_CHINESE = "主菜单"
 const GAME_MODES_FOLDER_INITIAL_POS = Vector2(0,-50)
 const GAME_MODES_FOLDER_FINAL_POS = Vector2(-850,-50)
 const FIXED_CAMERA_TEXT_SPANISH = "Cámara fija"
-const FIXED_CAMERA_TEXT_ENGLISH = "Fixed camera"
+const FIXED_CAMERA_TEXT_ENGLISH = "Закрепить камеру"
 const FIXED_CAMERA_TEXT_CHINESE = "固定摄像头"
 const SMALL_TEXT_SPANISH = "Diálogo pequeño"
-const SMALL_TEXT_ENGLISH = "Small dialog text"
+const SMALL_TEXT_ENGLISH = "Маленький текст диалогов"
 const SMALL_TEXT_CHINESE = "小对话文字"
-const TRIPO_TEXT_ENGLISH = "Trypophobia"
+const TRIPO_TEXT_ENGLISH = "Трипофобия"
 const TRIPO_TEXT_SPANISH = "Tripofobia"
 const TRIPO_TEXT_CHINESE = "密集恐惧症"
 const NIGHTMARE_TITLE_SPANISH = "Modo Pesadilla"
-const NIGHTMARE_TITLE_ENGLISH = "Nightmare Mode"
+const NIGHTMARE_TITLE_ENGLISH = "Кошмарный режим"
 const NIGHTMARE_TITLE_CHINESE = "噩梦模式"
-const NIGHTMARE_TEXT_ENGLISH = "* Not recommended for new
-players.
+const NIGHTMARE_TEXT_ENGLISH = "* Не рекомендуется для
+новых игроков.
 
-* The doppelgangers kill you 
-immediately after you let them in.
+* Доппельгангеры убивают тебя сразу, 
+как только ты их впускаешь.
 
-* Wait, something if wrong with
-the neighbors.
+* Подождите, с соседями что-то
+не так.
 
-* Chester is back and it's evil."
+* Честер вернулся, и он злой."
 const NIGHTMARE_TEXT_SPANISH = "* No recomendado para jugadores
 nuevos.
 
