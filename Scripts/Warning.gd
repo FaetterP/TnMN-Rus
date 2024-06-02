@@ -4,13 +4,13 @@ const ENGLISH_VALUE = 0
 const SPANISH_VALUE = 1
 const CHINESE_VALUE = 2
 const LOADING_DIR = "res://Scenes/Loading_screen.tscn"
-const TEXT_ENGLISH = "This videogame contains flashing lights.
-The characters and entities present are fictitious and any resemblance to reality is just coincidence."
+const TEXT_ENGLISH = "Эта игра содержит мерцающие изображения.
+Персонажи и существа, представленные в игре, являются вымышленными, и любое сходство с реальностью случайно."
 const TEXT_SPANISH = "Este juego contiene luces intermitentes.
 Los personajes y entidades presentes son ficticios y cualquier parecido con la realidad es pura coincidencia."
 const TEXT_S_CHINESE = "该视频游戏包含闪烁的灯光。
 所出现的人物和实体都是虚构的，与现实的任何相似之处纯属巧合。"
-const WARNING_TEXT_ENGLISH = "     WARNING"
+const WARNING_TEXT_ENGLISH = "    ВНИМАНИЕ"
 const WARNING_TEXT_SPANISH = "ADVERTENCIA"
 const WARNING_TEXT_CHINESE = "           警告"
 const MENU_SCENE = 2

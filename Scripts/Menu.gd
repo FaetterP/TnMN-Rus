@@ -119,7 +119,7 @@ const TEXT_FOR_COLORS_CHINESE = "显示重要颜色的文本"
 const TEXT_COLOR_HOW_TO_SPANISH = "Apagar luces
 intermitentes"
 const TEXT_COLOR_HOW_TO_ENGLISH = "Выключить
-фонари"
+мерцания"
 const TEXT_COLOR_HOW_TO_CHINESE = "关闭闪烁灯"
 const CREDITS_CHAR_ENGLISH = "Дизайн персонажей
 
