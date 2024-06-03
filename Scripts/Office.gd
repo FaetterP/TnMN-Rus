@@ -56,25 +56,25 @@ const FOLDER_B_MINIMIZE_POS_FIXED  = Vector2(170,1030)
 const FOLDER_C_MINIMIZE_POS_FIXED  = Vector2(530,1030)
 const FOLDER_MAX_POS = Vector2(170,0)
 const FOLDER_MAX_POS_FIXED = Vector2(325,-70)
-const ACCESSIBILITY_TEXT_DIAL_ENGLISH = "*Dialed*"
+const ACCESSIBILITY_TEXT_DIAL_ENGLISH = "*Номер набран*"
 const ACCESSIBILITY_TEXT_DIAL_SPANISH = "*Marcado*"
 const ACCESSIBILITY_TEXT_DIAL_CHINESE = "拨号"
-const ACCESSIBILITY_TEXT_NOT_DIAL_ENGLISH = "*Not dialed*"
+const ACCESSIBILITY_TEXT_NOT_DIAL_ENGLISH = "*Номер не набран*"
 const ACCESSIBILITY_TEXT_NOT_DIAL_SPANISH = "*No marcado*"
 const ACCESSIBILITY_TEXT_NOT_DIAL_CHINESE = "未拨号"
-const ACCESSIBILITY_TEXT_PHONE_TONE_ENGLISH = "*No answer*"
+const ACCESSIBILITY_TEXT_PHONE_TONE_ENGLISH = "*Нет ответа*"
 const ACCESSIBILITY_TEXT_PHONE_TONE_SPANISH = "*Sin respuesta*"
 const ACCESSIBILITY_TEXT_PHONE_TONE_CHINESE = "无回应"
-const ACCESSIBILITY_TEXT_PHONE_INCOMING_CALL_ENGLISH = "*Waiting for an answer*"
+const ACCESSIBILITY_TEXT_PHONE_INCOMING_CALL_ENGLISH = "*Ожидание ответа*"
 const ACCESSIBILITY_TEXT_PHONE_INCOMING_CALL_SPANISH = "*Esperando una respuesta*"
 const ACCESSIBILITY_TEXT_PHONE_INCOMING_CALL_CHINESE = "等待回复"
-const ACCESSIBILITY_TEXT_DOOR_OPEN_ENGLISH = "*Opening door*"
+const ACCESSIBILITY_TEXT_DOOR_OPEN_ENGLISH = "*Открытие двери*"
 const ACCESSIBILITY_TEXT_DOOR_OPEN_SPANISH = "*Abriendo puerta*"
 const ACCESSIBILITY_TEXT_DOOR_OPEN_CHINESE = "打开门"
-const ACCESSIBILITY_TEXT_DOOR_CLOSE_ENGLISH = "*Closing door*"
+const ACCESSIBILITY_TEXT_DOOR_CLOSE_ENGLISH = "*Закрытие двери*"
 const ACCESSIBILITY_TEXT_DOOR_CLOSE_SPANISH = "*Cerrando puerta*"
 const ACCESSIBILITY_TEXT_DOOR_CLOSE_CHINESE = "关闭门"
-const ACCESSIBILITY_TEXT_DOOR_OFF_ENGLISH = "*Is turned off*"
+const ACCESSIBILITY_TEXT_DOOR_OFF_ENGLISH = "*Выключение*"
 const ACCESSIBILITY_TEXT_DOOR_OFF_SPANISH = "*Está apagado*"
 const ACCESSIBILITY_TEXT_DOOR_OFF_CHINESE = "已关闭"
 const BUTTONS_OUTLINE_COLOR_BLACK = Color(0,0,0,1)
@@ -82,28 +82,28 @@ const BUTTONS_OUTLINE_COLOR_GREY = Color(0.5,0.5,0.5,1)
 const CHECKLIST_POS = Vector2(-30,2)
 const CHECKLIST_MINIMIZE_POS = Vector2(540,970)
 const CHECKLIST_MINIMIZE_POS_FIXED = Vector2(540,1020)
-const CHECKLIST_TEXT_TITLE_ENGLISH = "Checklist"
+const CHECKLIST_TEXT_TITLE_ENGLISH = "Проверочный список"
 const CHECKLIST_TEXT_TITLE_SPANISH = "Verificación"
 const CHECKLIST_TEXT_TITLE_CHINESE = "检查清单"
-const CHECKLIST_TEXT_INSTRUCTIONS_ENGLISH = "Check each option on the list and mark as appropriate"
+const CHECKLIST_TEXT_INSTRUCTIONS_ENGLISH = "Проверьте каждый пункт в списке и поставьте отметку"
 const CHECKLIST_TEXT_INSTRUCTIONS_SPANISH = "Verifica cada opción en la lista y marca según corresponda"
 const CHECKLIST_TEXT_INSTRUCTIONS_CHINESE = "检查列表中的每个选项，并标记适当的选项"
-const CHECKLIST_TEXT_ID_ENGLISH = "* ID"
+const CHECKLIST_TEXT_ID_ENGLISH = "* Удостоверение"
 const CHECKLIST_TEXT_ID_SPANISH = "* Identificación"
 const CHECKLIST_TEXT_ID_CHINESE = "身份识别"
-const CHECKLIST_TEXT_APPEARANCE_ENGLISH = "* Appearance"
+const CHECKLIST_TEXT_APPEARANCE_ENGLISH = "* Внешность"
 const CHECKLIST_TEXT_APPEARANCE_SPANISH = "* Apariencia"
 const CHECKLIST_TEXT_APPEARANCE_CHINESE = "外表"
-const CHECKLIST_TEXT_ENTRY_REQUEST_ENGLISH = "* Entry request"
+const CHECKLIST_TEXT_ENTRY_REQUEST_ENGLISH = "* Запрос на вход"
 const CHECKLIST_TEXT_ENTRY_REQUEST_SPANISH = "* Solicitud de ingreso"
 const CHECKLIST_TEXT_ENTRY_REQUEST_CHINESE = "入场申请"
-const CHECKLIST_TEXT_TODAY_LIST_ENGLISH = "* Is it on today's list?"
+const CHECKLIST_TEXT_TODAY_LIST_ENGLISH = "* В сегодняшнем списке?"
 const CHECKLIST_TEXT_TODAY_LIST_SPANISH = "* ¿Está en la lista de hoy?"
 const CHECKLIST_TEXT_TODAY_LIST_CHINESE = "今天名单里有吗？"
-const CHECKLIST_TEXT_COMPLETE_ENGLISH = "Complete checklist"
+const CHECKLIST_TEXT_COMPLETE_ENGLISH = "Завершить проверку"
 const CHECKLIST_TEXT_COMPLETE_SPANISH = "Completar lista"
 const CHECKLIST_TEXT_COMPLETE_CHINESE = "完成检查清单"
-const CHECKLIST_TEXT_QUESTION_ENGLISH = "Question the individual"
+const CHECKLIST_TEXT_QUESTION_ENGLISH = "Спросить индивида"
 const CHECKLIST_TEXT_QUESTION_SPANISH = "Interrogar al individuo"
 const CHECKLIST_TEXT_QUESTION_CHINESE = "询问个人"
 const UNLOCK_DISABLED_BUTTON_POS = Vector2(-207,-64)
@@ -115,7 +115,7 @@ const SOUND_SIREN_ADJUST_LEVEL = 8
 const CHAR_DDD_AGENT = preload("res://Scenes/DDD_Agent.tscn")
 const CHAR_AT_CENTER_WINDOW_POS = Vector2(998,280)
 const CHAR_AT_SPAWN_POS = Vector2(100,280)
-const SKIP_ENGLISH = "Skip"
+const SKIP_ENGLISH = "Пропуск"
 const SKIP_SPANISH = "Omitir"
 const SKIP_CHINESE = "跳过"
 const MIN_NUMBER_NORMAL_CHAR = 4 #4
@@ -150,39 +150,39 @@ const FOLDER_C_BUTTON_ROOM_03_ENGLISH = "F03-03"
 const FOLDER_C_BUTTON_ROOM_03_SPANISH = "P03-03"
 const FOLDER_C_BUTTON_ROOM_04_ENGLISH = "F03-04"
 const FOLDER_C_BUTTON_ROOM_04_SPANISH = "P03-04"
-const FOLDER_PHONE_NUMBER_LABEL_ENGLISH = "Apartment phone number: "
+const FOLDER_PHONE_NUMBER_LABEL_ENGLISH = "Телефонный номер: "
 const FOLDER_PHONE_NUMBER_LABEL_SPANISH = "Número de teléfono: "
 const FOLDER_PHONE_NUMBER_LABEL_CHINESE = "电话号码: "
-const ENTRY_REQUEST_TITLE_ENGLISH = "Entry Request"
+const ENTRY_REQUEST_TITLE_ENGLISH = "Запрос на вход"
 const ENTRY_REQUEST_TITLE_SPANISH = "Solicitud Ingreso"
 const ENTRY_REQUEST_TITLE_CHINESE = "入场申请"
-const ENTRY_REQUEST_NAME_ENGLISH = "Name:"
+const ENTRY_REQUEST_NAME_ENGLISH = "Имя:"
 const ENTRY_REQUEST_NAME_SPANISH = "Nombre:"
 const ENTRY_REQUEST_NAME_CHINESE = "姓名: "
 const ENTRY_REQUEST_NAME_POS_ENGLISH = Vector2(-225,-390)
 const ENTRY_REQUEST_NAME_POS_SPANISH = Vector2(-175,-390)
-const ENTRY_REQUEST_LAST_NAME_ENGLISH = "Last Name:"
+const ENTRY_REQUEST_LAST_NAME_ENGLISH = "Фамилия:"
 const ENTRY_REQUEST_LAST_NAME_SPANISH = "Apellido:"
 const ENTRY_REQUEST_LAST_NAME_CHINESE = "姓氏: "
 const ENTRY_REQUEST_LAST_NAME_POS_ENGLISH = Vector2(-120,-300)
 const ENTRY_REQUEST_LAST_NAME_POS_SPANISH = Vector2(-170,-300)
-const ENTRY_REQUEST_APARTMENT_ENGLISH = "Apartment:"
+const ENTRY_REQUEST_APARTMENT_ENGLISH = "Квартира:"
 const ENTRY_REQUEST_APARTMENT_SPANISH = "Apartamento:"
 const ENTRY_REQUEST_APARTMENT_CHINESE = "公寓: "
 const ENTRY_REQUEST_APARTMENT_POS_ENGLISH = Vector2(-110,-211)
 const ENTRY_REQUEST_APARTMENT_POS_SPANISH = Vector2(-70,-211)
-const ENTRY_REQUEST_REASON_ENGLISH = "Reason:"
+const ENTRY_REQUEST_REASON_ENGLISH = "Причина:"
 const ENTRY_REQUEST_REASON_SPANISH = "Motivo:"
 const ENTRY_REQUEST_REASON_CHINESE = "原因: "
-const FOLDER_ID_LABEL_ENGLISH = "ID Number: \n"
+const FOLDER_ID_LABEL_ENGLISH = "Удостоверение: \n"
 const FOLDER_ID_LABEL_SPANISH = "Identificación: \n"
 const FOLDER_ID_LABEL_CHINESE = "身份识别"
 const FOLDER_EMPTY_NUMBER = "####"
-const FOLDER_EMPTY_SPOT_ENGLISH = "Not available in demo"
+const FOLDER_EMPTY_SPOT_ENGLISH = "Недоступно в демо-версии"
 const FOLDER_EMPTY_SPOT_SPANISH = "No disponible"
-const FOLDER_EMPTY_ID_NUMBER_ENGLISH = "ID Number: \n############"
+const FOLDER_EMPTY_ID_NUMBER_ENGLISH = "Удостоверение: \n############"
 const FOLDER_EMPTY_ID_NUMBER_SPANISH = "Identificación: \n############"
-const FOLDER_EMPTY_APPEARENCE_ENGLISH = "Appearance:-* Not available in demo-* Not available in demo-* Not available in demo-* Not available in demo-* Not available in demo"
+const FOLDER_EMPTY_APPEARENCE_ENGLISH = "Внешность:-* Недоступно в демо-версии-* Недоступно в демо-версии-* Недоступно в демо-версии-* Недоступно в демо-версии-* Недоступно в демо-версии"
 const FOLDER_EMPTY_APPEARENCE_SPANISH = "Apariencia:-* No disponible-* No disponible-* No disponible-* No disponible-* No disponible"
 const ROMAN_STILNSKY = preload("res://Scenes/Roman_Stinlsky.tscn")
 const LOIS_STILNSKY = preload("res://Scenes/Lois_Stilnsky.tscn")
@@ -211,18 +211,18 @@ const Z_ORDERING_MINIMIZE = 10
 const Z_ORDERING_OPEN = 4
 const UNLIKELY_START_POS = Vector2(870,815)
 const UNLIKELY_FINAL_POS = Vector2(550,815)
-const UNLIKELY_TEXT_ENGLISH = "Every night, all over the world, hundreds of people see this clown in their dreams. If this clown appears in your dreams don't play any game with him. If you want more information go to:"
+const UNLIKELY_TEXT_ENGLISH = "Каждую ночь по всему миру сотни людей видят этого клоуна во сне. Если этот клоун появляется в ваших снах, не играйте с ним в игры. Если вы хотите узнать больше, посмотрите здесь:";
 const UNLIKELY_TEXT_SPANISH = "Cada noche, en todo el mundo, cientos de personas ven a este payaso en sus sueños. Si este payaso aparece en tus sueños no aceptes ningún juego con él. Si quieres más información ingresa a:"
 const UNLIKELY_TEXT_CHINESE = "这个世界每个晚上都有数百人在梦中看到这个小丑。如果这个小丑出现在你的梦里，请不要接受任何与他相关的游戏。如果你想要更多信息，请访问: "
-const UNLIKELY_TITLE_ENGLISH = "Ever Dream This Clown?"
+const UNLIKELY_TITLE_ENGLISH = "Когда-нибудь видел этого клоуна во сне?";
 const UNLIKELY_TITLE_SPANISH = "¿Alguna vez ha Soñado con este Payaso?"
 const UNLIKELY_TITLE_CHINESE = "您曾经梦到过这个小丑吗？"
 const URL = "https://nachogames.itch.io/unlikely"
 const BUTTON_SUBMIT_SPANISH = "Responder"
-const BUTTON_SUBMIT_ENGLISH = "Submit"
+const BUTTON_SUBMIT_ENGLISH = "Ответить"
 const BUTTON_SUBMIT_CHINESE = "提交"
 const QUESTION_HOLDER_SPANISH = "Respuesta:"
-const QUESTION_HOLDER_ENGLISH = "Answer:"
+const QUESTION_HOLDER_ENGLISH = "Ответ:"
 const QUESTION_HOLDER_CHINESE = "回答"
 const LEFT_HAND_INITIAL_POS = Vector2(-3580,1680)
 const LEFT_HAND_FINAL_POS = Vector2(-1138,282)
@@ -608,100 +608,100 @@ var n_texts = 0
 var text_on_call = []
 var is_3312_active = false
 var list_text_call_3312_0_spanish = ["No llame al D.D.D. si no hay una emergencia en curso."]
-var list_text_call_3312_0_english = ["Don't call to the D.D.D. if there is no emergency in progress."]
+var list_text_call_3312_0_english = ["Не звоните в D.D.D., если нет чрезвычайной ситуации."]
 var list_text_call_3312_0_chinese = ["如果没有正在发生的紧急情况，请不要拨打紧急电话。"]
 var list_text_call_3312_1_spanish = ["Se acaba de comunicar con el D.D.D.", "Se ha enviado un grupo de agentes a su edificio.", "Por favor espere a que se ejecute el protocolo de limpieza."]
-var list_text_call_3312_1_english = ["You have contacted the D.D.D.", "A group of agents has been sent to your building.", "Please wait for the cleaning protocol to run."]
+var list_text_call_3312_1_english = ["Вы обратились в D.D.D.", "Группа агентов отправлена в ваш дом.", "Пожалуйста, дождитесь выполнения протокола очистки."]
 var list_text_call_3312_1_chinese = ["你刚刚联系了紧急电话服务。","已经派遣了一组特工到您的大楼。","请等待清洁程序执行。"]
 var list_text_call_1152_0_spanish = ["Hola, habla Lois Stilnsky.","Mi esposo no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_1152_0_english = ["Hello, Lois Stilnsky speaking.","My husband is not at home.","Is he back?"]
+var list_text_call_1152_0_english = ["Здравствуйте, говорит Лоис Стилнски.","Моего мужа нет дома.","Он уже вернулся?"]
 var list_text_call_1152_0_chinese = ["你好，我是Lois Stilnsky。","我丈夫不在家。","他已经回来了吗？"]
 var list_text_call_1152_1_spanish = ["Hola, habla Lois Stilnsky.","Mi esposo no se encuentra en casa.","¿El sombrero de mi esposo?","Sí, lo olvidó en casa."]
-var list_text_call_1152_1_english = ["Hello, Lois Stilnsky speaking.","My husband is not at home.","His hat?","Yes, he left it here."]
+var list_text_call_1152_1_english = ["Здравствуйте, говорит Лоис Стилнски.","Моего мужа нет дома.","Его шляпа?","Да, он оставил её здесь."]
 var list_text_call_1152_1_chinese = ["你好，我是Lois Stilnsky。","我丈夫不在家。","我丈夫的帽子在哪里？","他把帽子忘在家里了。"]
 var list_text_call_1152_2_spanish = ["Hola, habla Roman Stilnsky.", "Mi esposa y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_1152_2_english = ["Hello, Roman Stilnsky speaking.", "My wife and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_1152_2_english = ["Здравствуйте, говорит Роман Стилнски.", "Мы с женой сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_1152_2_chinese = ["你好，我是Roman Stilnsky。","我妻子和我目前在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_1152_3_spanish = ["Hola, habla Roman Stilnsky.","Mi esposa no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_1152_3_english = ["Hello, Roman Stilnsky speaking.","My wife is not at home.","Is she back?"]
+var list_text_call_1152_3_english = ["Здравствуйте, говорит Роман Стилнски.","Моей жены нет дома.","Она уже вернулась?"]
 var list_text_call_1152_3_chinese = ["你好，我是Roman Stilnsky。","我的妻子不在家。","她已经回来了吗？"]
 var list_text_call_6431_spanish = ["Hola, habla Margarette.","No estoy esperando ninguna visita."]
-var list_text_call_6431_english = ["Hello, Margarette speaking.","I'm not expecting any visitors today."]
+var list_text_call_6431_english = ["Здравствуйте, говорит Маргарет.","Я не жду сегодня гостей."]
 var list_text_call_6431_chinese = ["你好，我是Margarette。","我不在等待任何访客。"] 
 var list_text_call_4258_spanish = ["Hola, habla Alf.","Mi esposa y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_4258_english = ["Hello, Alf speaking.","My wife and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_4258_english = ["Здравствуйте, говорит Альф.","Мы с женой сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_4258_chinese = ["你好，我是Alf。","我妻子和我目前在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_4258_01_spanish = ["Hola, habla Rafttellyn.","Mi esposo no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_4258_01_english = ["Hello, Rafttellyn speaking.","My husband is not at home.","Is he back?"]
+var list_text_call_4258_01_english = ["Здравствуйте, говорит Рафтеллин.","Моего мужа нет дома.","Он уже вернулся?"]
 var list_text_call_4258_01_chinese = ["你好，我是Rafttellyn。","我丈夫不在家。","他已经回来了吗？"]
 var list_text_call_4258_02_spanish = ["Hola, habla Rafttellyn.","Mi esposo no se encuentra en casa.","¿El sombrero de mi esposo?","Sí, lo olvidó en casa."]
-var list_text_call_4258_02_english = ["Hello, Rafttellyn speaking.","My husband is not at home.","His hat?","Yes, he left it here."]
+var list_text_call_4258_02_english = ["Здравствуйте, говорит Рафтеллин.","Моего мужа нет дома.","Его шляпа?","Да, он оставил её здесь."]
 var list_text_call_4258_02_chinese = ["你好，我是Rafttellyn。","我丈夫不在家。","我丈夫的帽子在哪里？","他把帽子忘在家里了。"]
 var list_text_call_4258_03_spanish = ["Hola, habla Alf.","Mi esposa no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_4258_03_english = ["Hello, Alf speaking.","My wife is not at home.","Is she back?"]
+var list_text_call_4258_03_english = ["Здравствуйте, говорит Альф.","Моей жены нет дома.","Она уже вернулась?"]
 var list_text_call_4258_03_chinese = ["你好，我是Alf。","我的妻子不在家。","她已经回来了吗？"]
 var list_text_call_6996_0_spanish = ["Hola, habla Selenne Sverchzt.","Mi hermana no se encuentra en casa."]
-var list_text_call_6996_0_english = ["Hello, Selenne Sverchzt speaking.","My sister is not at home."]
+var list_text_call_6996_0_english = ["Здравствуйте, говорит Селенн Сверчт.","Моей сестры нет дома."]
 var list_text_call_6996_0_chinese = ["你好，我是Selenne Sverchzt。","我姐姐不在家。"]
 var list_text_call_6996_1_spanish = ["Hola, habla Elenois Sverchzt.","Mi hermana no se encuentra en casa."]
-var list_text_call_6996_1_english = ["Hello, Elenois Sverchzt speaking.","My sister is not at home."]
+var list_text_call_6996_1_english = ["Здравствуйте, говорит Эленуа Сверчт.","Моей сестры нет дома."]
 var list_text_call_6996_1_chinese = ["你好，我是Elenois Sverchzt。","我姐姐不在家。"]
 var list_text_call_6996_2_spanish = ["Hola, habla Elenois Sverchzt.","Mi hermana y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_6996_2_english = ["Hello, Elenois Sverchzt speaking.", "My sister and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_6996_2_english = ["Здравствуйте, говорит Эленуа Сверчт.", "Я со своей сестрой сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_6996_2_chinese = ["你好，我是Elenois Sverchzt。","我和我姐姐现在在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_7332_spanish = ["Hola, habla Izaack.","No estoy esperando ninguna visita."]
-var list_text_call_7332_english = ["Hello, Izaack speaking.","I'm not expecting any visitors today."]
+var list_text_call_7332_english = ["Здравствуйте, говорит Изаак.","Я не жду сегодня гостей."]
 var list_text_call_7332_chinese = ["你好，我是Izaack。","我不在等待任何访客。"]
 var list_text_call_5123_0_spanish = ["Hola, habla Gloria Schmicht.","Mi esposo no se encuentra en casa."]
-var list_text_call_5123_0_english = ["Hello, Gloria Schmicht speaking.","My husband is not at home."]
+var list_text_call_5123_0_english = ["Здравствуйте, говорит Глория Шмихт.","Моего мужа нет дома."]
 var list_text_call_5123_0_chinese = ["你好，我是Gloria Schmicht。","我丈夫不在家。"]
 var list_text_call_5123_1_spanish = ["Hola, habla Arnold Schmicht.","Mi esposa no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_5123_1_english = ["Hello, Arnold Schmicht speaking.","My wife is not at home.","Is she back?"]
+var list_text_call_5123_1_english = ["Здравствуйте, говорит Арнольд Шмихт.","Моей жены нет дома.","Она уже вернулась?"]
 var list_text_call_5123_1_chinese = ["你好，我是Arnold Schmicht。","我的妻子不在家。","她已经回来了吗？"]
 var list_text_call_5123_2_spanish = ["Hola, habla Gloria Schmicht.","Mi esposo y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_5123_2_english = ["Hello, Gloria Schmicht speaking.", "My husband and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_5123_2_english = ["Здравствуйте, говорит Глория Шмихт.", "Мы с мужем сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_5123_2_chinese = ["你好，我是Gloria Schmicht。","我丈夫和我现在在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_2668_1_spanish = ["Hola, habla Albertsky.","Mi hermano no se encuentra en casa."]
-var list_text_call_2668_1_english = ["Hello, Albertsky speaking.","My brother is not at home."]
+var list_text_call_2668_1_english = ["Здравствуйте, говорит Альбертски.","Моего брата нет дома."]
 var list_text_call_2668_1_chinese = ["你好，我是Albertsky。","我的兄弟不在家。"]
 var list_text_call_2668_0_spanish = ["Hola, habla Robertsky Peachman.","Mi hermano no se encuentra en casa."]
-var list_text_call_2668_0_english = ["Hello, Robertsky Peachman speaking.","My brother is not at home."]
+var list_text_call_2668_0_english = ["Здравствуйте, говорит Робертски Пичман.","Моего брата нет дома."]
 var list_text_call_2668_0_chinese = ["你好，我是Robertsky Peachman。","我的兄弟不在家。"]
 var list_text_call_2668_2_spanish = ["Hola, habla Robertsky Peachman.","Mi hermano y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_2668_2_english = ["Hello, Robertsky Peachman speaking.", "My brother and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_2668_2_english = ["Здравствуйте, говорит Робертски Пичман.", "Мы с братом сейчас в квартире.","Сегодня мы не ждём никаких гостей."]
 var list_text_call_2668_2_chinese = ["你好，我是Robertsky Peachman。","我和我兄弟现在在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_1425_0_spanish = ["Hola, habla el Dr. W. Afton.","Mi prometida no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_1425_0_english = ["Hello, Dr. W. Afton speaking.","My fiancee is not at home.","Is she back?"]
+var list_text_call_1425_0_english = ["Здравствуйте, говорит Д-р В. Афтон.","Моей невесты нет дома.","Она уже вернулась?"]
 var list_text_call_1425_0_chinese = ["你好，我是Dr. W. Afton。","我的未婚妻不在家。","她已经回来了吗？"]
 var list_text_call_1425_1_spanish = ["Hola, habla Mia.","Mi prometido no se encuentra en casa."]
-var list_text_call_1425_1_english = ["Hello, Mia speaking.","My fiance is not at home."]
+var list_text_call_1425_1_english = ["Здравствуйте, говорит Миа.","Моего жениха нет дома."]
 var list_text_call_1425_1_chinese = ["你好，我是Mia。","我的未婚夫不在家。"]
 var list_text_call_1425_2_spanish = ["Hola, habla el Dr. W. Afton.","Mi prometida y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_1425_2_english = ["Hello, Dr. W. Afton speaking.", "My fiancee and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_1425_2_english = ["Здравствуйте, говорит Д-р В. Афтон.", "Я со своей невестой сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_1425_2_chinese = ["你好，我是Dr. W. Afton。","我和我的未婚妻现在在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_5513_spanish = ["Hola, habla Ciprianni.","No estoy esperando ninguna visita."]
-var list_text_call_5513_english = ["Hello, Ciprianni speaking.","I'm not expecting any visitors today."]
+var list_text_call_5513_english = ["Здравствуйте, говорит Чиприанни.","Я не жду сегодня гостей."]
 var list_text_call_5513_chinese = ["你好，我是Ciprianni。","我不在等待任何访客。"]
 var list_text_call_4122_spanish = ["Mmmm. Hola, habla Francis.","No estoy esperando ninguna visita."]
-var list_text_call_4122_english = ["Mmmm. Hello, Francis speaking.","I'm not expecting any visitors today."]
+var list_text_call_4122_english = ["Мммм. Здравствуйте, говорит Фрэнсис.","Я не жду сегодня гостей."]
 var list_text_call_4122_chinese = ["嗯嗯。你好，我是Francis。","我不在等待任何访客。"]
 var list_text_call_1346_0_spanish = ["Hola, habla Nacha.","Mi hija no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_1346_0_english = ["Hello, Nacha speaking.","My daughter is not at home.","Is she back?"]
+var list_text_call_1346_0_english = ["Здравствуйте, говорит Нача.","Моей дочери нет дома.","Она уже вернулась?"]
 var list_text_call_1346_0_chinese = ["你好，我是Nacha。","我女儿不在家。","她已经回来了吗？"]
 var list_text_call_1346_1_spanish = ["Mmmm. Hola, habla Anastacha.","Mi madre no se encuentra en casa.","Lo que sea."]
-var list_text_call_1346_1_english = ["Mmmm. Hello, Anastacha speaking.","My mother is not at home.","Whatever."]
+var list_text_call_1346_1_english = ["Мммм. Здравствуйте, говорит Анастача.","Моей мамы нет дома.","Вроде того."]
 var list_text_call_1346_1_chinese = ["嗯嗯。你好，我是Anastacha。","我妈妈不在家。","哦无论如何。"]
 var list_text_call_1346_2_spanish = ["Hola, habla Nacha.","Mi hija y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_1346_2_english = ["Hello, Nacha speaking.", "My daughter and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_1346_2_english = ["Здравствуйте, говорит Нача.", "Я со своей дочерью сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_1346_2_chinese = ["你好，我是Nacha。","我和我的女儿现在在公寓里。","今天我们没有预料到任何访客。"]
 var list_text_call_4242_0_spanish = ["Hola, habla Mclooy Rudboys.","Mi hijo no se encuentra en casa.","¿Ya regresó?"]
-var list_text_call_4242_0_english = ["Hello, Mclooy Rudboys speaking.","My son is not at home.","Is he back?"]
+var list_text_call_4242_0_english = ["Здравствуйте, говорит Маклой Рудбойс.","Моего сына нет дома.","Он уже вернулся?"]
 var list_text_call_4242_0_chinese = ["你好，我是Mclooy Rudboys。","我的儿子不在家。","他已经回来了吗？"]
 var list_text_call_4242_1_spanish = ["Hola, habla Steven.","Mi padre no se encuentra en casa."]
-var list_text_call_4242_1_english = ["Hello, Steven speaking.","My father is not at home."]
-var list_text_call_4242_1_chinese =["你好，我是Steven。","我父亲不在家。"]
+var list_text_call_4242_1_english = ["Здравствуйте, говорит Стивен.","Моего отца нет дома."]
+var list_text_call_4242_1_chinese = ["你好，我是Steven。","我父亲不在家。"]
 var list_text_call_4242_2_spanish = ["Hola, habla Steven.","Mi padre y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
-var list_text_call_4242_2_english = ["Hello, Steven speaking.", "My father and I are in the apartment right now.","We are not expecting any visitors today."]
+var list_text_call_4242_2_english = ["Здравствуйте, говорит Стивен.","Я со своим отцом сейчас в квартире.","Мы не ждём сегодня гостей."]
 var list_text_call_4242_2_chinese = ["你好，我是Steven。","我和我父亲现在在公寓里。","今天我们没有预料到任何访客。"]
 var normal_char_level_list = []
 var special_char_level_list = []
@@ -3271,7 +3271,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_3312_0_spanish = ["No llame al D.D.D. si no hay una emergencia en curso."]
 						text_on_call = list_text_call_3312_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_3312_0_english = ["Don't call to the D.D.D. if there is no emergency in progress."]
+						list_text_call_3312_0_english = ["Не звоните в D.D.D., если нет чрезвычайной ситуации."]
 						text_on_call = list_text_call_3312_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_3312_0_chinese = ["如果没有正在发生的紧急情况，请不要拨打紧急电话。"]
@@ -3283,7 +3283,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_3312_1_spanish = ["Se acaba de comunicar con el D.D.D.", "Se ha enviado un grupo de agentes a su edificio.", "Por favor espere a que se ejecute el protocolo de limpieza."]
 						text_on_call = list_text_call_3312_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_3312_1_english = ["You have contacted the D.D.D.", "A group of agents has been sent to your building.", "Please wait for the cleaning protocol to run."]
+						list_text_call_3312_1_english = ["Вы обратились в D.D.D.", "Группа агентов отправлена в ваш дом.", "Пожалуйста, дождитесь выполнения протокола очистки."]
 						text_on_call = list_text_call_3312_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_3312_1_chinese = ["你刚刚联系了紧急电话服务。","已经派遣了一组特工到您的大楼。","请等待清洁程序执行。"]
@@ -3300,7 +3300,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 								list_text_call_1152_0_spanish = ["Hola, habla Lois Stilnsky.","Mi esposo no se encuentra en casa.","¿Ya regresó?"]
 								text_on_call = list_text_call_1152_0_spanish.duplicate()
 							elif Global.language == ENGLISH_VALUE:
-								list_text_call_1152_0_english = ["Hello, Lois Stilnsky speaking.","My husband is not at home.","Is he back?"]
+								list_text_call_1152_0_english = ["Здравствуйте, говорит Лоис Стилнски.","Моего мужа нет дома.","Он уже вернулся?"]
 								text_on_call = list_text_call_1152_0_english.duplicate()
 							elif Global.language == CHINESE_VALUE:
 								list_text_call_1152_0_chinese = ["你好，我是Lois Stilnsky。","我丈夫不在家。","他已经回来了吗？"]
@@ -3310,7 +3310,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 								list_text_call_1152_1_spanish = ["Hola, habla Lois Stilnsky.","Mi esposo no se encuentra en casa.","¿El sombrero de mi esposo?","Sí, lo olvidó en casa."]
 								text_on_call = list_text_call_1152_1_spanish.duplicate()
 							elif Global.language == ENGLISH_VALUE:
-								list_text_call_1152_1_english = ["Hello, Lois Stilnsky speaking.","My husband is not at home.","His hat?","Yes, he left it here."]
+								list_text_call_1152_1_english = ["Здравствуйте, говорит Лоис Стилнски.","Моего мужа нет дома.","Его шляпа?","Да, он оставил её здесь."]
 								text_on_call = list_text_call_1152_1_english.duplicate()
 							elif Global.language == CHINESE_VALUE:
 								list_text_call_1152_1_chinese = ["你好，我是Lois Stilnsky。","我丈夫不在家。","我丈夫的帽子在哪里？","他把帽子忘在家里了。"]
@@ -3320,7 +3320,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 							list_text_call_1152_0_spanish = ["Hola, habla Lois Stilnsky.","Mi esposo no se encuentra en casa.","¿Ya regresó?"]
 							text_on_call = list_text_call_1152_0_spanish.duplicate()
 						elif Global.language == ENGLISH_VALUE:
-							list_text_call_1152_0_english = ["Hello, Lois Stilnsky speaking.","My husband is not at home.","Is he back?"]
+							list_text_call_1152_0_english = ["Здравствуйте, говорит Лоис Стилнски.","Моего мужа нет дома.","Он уже вернулся?"]
 							text_on_call = list_text_call_1152_0_english.duplicate()
 						elif Global.language == CHINESE_VALUE:
 							list_text_call_1152_0_chinese = ["你好，我是Lois Stilnsky。","我丈夫不在家。","他已经回来了吗？"]
@@ -3330,7 +3330,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1152_2_spanish = ["Hola, habla Roman Stilnsky.", "Mi esposa y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_1152_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1152_2_english = ["Hello, Roman Stilnsky speaking.", "My wife and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_1152_2_english = ["Здравствуйте, говорит Роман Стилнски.", "Я со своей женой сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_1152_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1152_2_chinese = ["你好，我是Roman Stilnsky。","我妻子和我目前在公寓里。","今天我们没有预料到任何访客。"]
@@ -3340,7 +3340,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1152_3_spanish = ["Hola, habla Roman Stilnsky.","Mi esposa no se encuentra en casa.","¿Ya regresó?"]
 						text_on_call = list_text_call_1152_3_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1152_3_english = ["Hello, Roman Stilnsky speaking.","My wife is not at home.","Is she back?"]
+						list_text_call_1152_3_english = ["Здравствуйте, говорит Роман Стилнски.","Моей жены нет дома.","Она уже вернулась?"]
 						text_on_call = list_text_call_1152_3_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1152_3_chinese = ["你好，我是Roman Stilnsky。","我的妻子不在家。","她已经回来了吗？"]
@@ -3355,7 +3355,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_6431_spanish = ["Hola, habla Margarette.","No estoy esperando ninguna visita."]
 						text_on_call = list_text_call_6431_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_6431_english = ["Hello, Margarette speaking.","I'm not expecting any visitors today."]
+						list_text_call_6431_english = ["Здравствуйте, говорит Маргарет.","Я не жду сегодня гостей."]
 						text_on_call = list_text_call_6431_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_6431_chinese = ["你好，我是Margarette。","我不在等待任何访客。"] 
@@ -3370,7 +3370,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4258_spanish = ["Hola, habla Alf.","Mi esposa y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_4258_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4258_english = ["Hello, Alf speaking.","My wife and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_4258_english = ["Здравствуйте, говорит Альф.","Я со своей женой сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_4258_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4258_chinese = ["你好，我是Alf。","我妻子和我目前在公寓里。","今天我们没有预料到任何访客。"]
@@ -3380,7 +3380,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4258_03_spanish = ["Hola, habla Alf.","Mi esposa no se encuentra en casa.","¿Ya regresó?"]
 						text_on_call = list_text_call_4258_03_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4258_03_english = ["Hello, Alf speaking.","My wife is not at home.","Is she back?"]
+						list_text_call_4258_03_english = ["Здравствуйте, говорит Альф.","Моей жены нет дома.","Она уже вернулась?"]
 						text_on_call = list_text_call_4258_03_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4258_03_chinese = ["你好，我是Alf。","我的妻子不在家。","她已经回来了吗？"]
@@ -3392,7 +3392,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 								list_text_call_4258_01_spanish = ["Hola, habla Rafttellyn.","Mi esposo no se encuentra en casa.","¿Ya regresó?"]
 								text_on_call = list_text_call_4258_01_spanish.duplicate()
 							elif Global.language == ENGLISH_VALUE:
-								list_text_call_4258_01_english = ["Hello, Rafttellyn speaking.","My husband is not at home.","Is he back?"]
+								list_text_call_4258_01_english = ["Здравствуйте, говорит Рафтеллин.","Моего мужа нет дома.","Он уже вернулся?"]
 								text_on_call = list_text_call_4258_01_english.duplicate()
 							elif Global.language == CHINESE_VALUE:
 								list_text_call_4258_01_chinese = ["你好，我是Rafttellyn。","我丈夫不在家。","他已经回来了吗？"]
@@ -3402,7 +3402,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 								list_text_call_4258_02_spanish = ["Hola, habla Rafttellyn.","Mi esposo no se encuentra en casa.","¿El sombrero de mi esposo?","Sí, lo olvidó en casa."]
 								text_on_call = list_text_call_4258_02_spanish.duplicate()
 							elif Global.language == ENGLISH_VALUE:
-								list_text_call_4258_02_english = ["Hello, Rafttellyn speaking.","My husband is not at home.","His hat?","Yes, he left it here."]
+								list_text_call_4258_02_english = ["Здравствуйте, говорит Рафтеллин.","Моего мужа нет дома.","Его шляпа?","Да, он оставил её здесь."]
 								text_on_call = list_text_call_4258_02_english.duplicate()
 							elif Global.language == CHINESE_VALUE:
 								list_text_call_4258_02_chinese = ["你好，我是Rafttellyn。","我丈夫不在家。","我丈夫的帽子在哪里？","他把帽子忘在家里了。"]
@@ -3412,7 +3412,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 							list_text_call_4258_01_spanish = ["Hola, habla Rafttellyn.","Mi esposo no se encuentra en casa.","¿Ya regresó?"]
 							text_on_call = list_text_call_4258_01_spanish.duplicate()
 						elif Global.language == ENGLISH_VALUE:
-							list_text_call_4258_01_english = ["Hello, Rafttellyn speaking.","My husband is not at home.","Is he back?"]
+							list_text_call_4258_01_english = ["Здравствуйте, говорит Рафтеллин.","Моего мужа нет дома.","Он уже вернулся?"]
 							text_on_call = list_text_call_4258_01_english.duplicate()
 						elif Global.language == CHINESE_VALUE:
 							list_text_call_4258_01_chinese = ["你好，我是Rafttellyn。","我丈夫不在家。","他已经回来了吗？"]
@@ -3427,7 +3427,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_6996_0_spanish = ["Hola, habla Selenne Sverchzt.","Mi hermana no se encuentra en casa."]
 						text_on_call = list_text_call_6996_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_6996_0_english = ["Hello, Selenne Sverchzt speaking.","My sister is not at home."]
+						list_text_call_6996_0_english = ["Здравствуйте, говорит Селенн Сверчт.","Моей сестры нет дома."]
 						text_on_call = list_text_call_6996_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_6996_0_chinese = ["你好，我是Selenne Sverchzt。","我姐姐不在家。"]
@@ -3437,7 +3437,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_6996_1_spanish = ["Hola, habla Elenois Sverchzt.","Mi hermana no se encuentra en casa."]
 						text_on_call = list_text_call_6996_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_6996_1_english = ["Hello, Elenois Sverchzt speaking.","My sister is not at home."]
+						list_text_call_6996_1_english = ["Здравствуйте, говорит Эленуа Сверчт.","Моей сестры нет дома."]
 						text_on_call = list_text_call_6996_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_6996_1_chinese = ["你好，我是Elenois Sverchzt。","我姐姐不在家。"]
@@ -3447,7 +3447,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_6996_2_spanish = ["Hola, habla Elenois Sverchzt.","Mi hermana y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_6996_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_6996_2_english = ["Hello, Elenois Sverchzt speaking.", "My sister and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_6996_2_english = ["Здравствуйте, говорит Эленуа Сверчт.", "Я со своей сестрой сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_6996_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_6996_2_chinese = ["你好，我是Elenois Sverchzt。","我和我姐姐现在在公寓里。","今天我们没有预料到任何访客。"]
@@ -3462,7 +3462,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_7332_spanish = ["Hola, habla Izaack.","No estoy esperando ninguna visita."]
 						text_on_call = list_text_call_7332_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_7332_english = ["Hello, Izaack speaking.","I'm not expecting any visitors today."]
+						list_text_call_7332_english = ["Здравствуйте, говорит Изаак.","Я не жду сегодня гостей."]
 						text_on_call = list_text_call_7332_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_7332_chinese = ["你好，我是Izaack。","我不在等待任何访客。"]
@@ -3477,7 +3477,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_5123_0_spanish = ["Hola, habla Gloria Schmicht.","Mi esposo no se encuentra en casa."]
 						text_on_call = list_text_call_5123_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_5123_0_english = ["Hello, Gloria Schmicht speaking.","My husband is not at home."]
+						list_text_call_5123_0_english = ["Здравствуйте, говорит Глория Шмихт.","Моего мужа нет дома."]
 						text_on_call = list_text_call_5123_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_5123_0_chinese = ["你好，我是Gloria Schmicht。","我丈夫不在家。"]
@@ -3487,7 +3487,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_5123_1_spanish = ["Hola, habla Arnold Schmicht.","Mi esposa no se encuentra en casa.","¿Ya regresó?"]
 						text_on_call = list_text_call_5123_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_5123_1_english = ["Hello, Arnold Schmicht speaking.","My wife is not at home.","Is she back?"]
+						list_text_call_5123_1_english = ["Здравствуйте, говорит Арнольд Шмихт.","Моей жены нет дома.","Она уже вернулась?"]
 						text_on_call = list_text_call_5123_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_5123_1_chinese = ["你好，我是Arnold Schmicht。","我的妻子不在家。","她已经回来了吗？"]
@@ -3497,7 +3497,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_5123_2_spanish = ["Hola, habla Gloria Schmicht.","Mi esposo y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_5123_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_5123_2_english = ["Hello, Gloria Schmicht speaking.", "My husband and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_5123_2_english = ["Здравствуйте, говорит Глория Шмихт.", "Мы с мужем сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_5123_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_5123_2_chinese = ["你好，我是Gloria Schmicht。","我丈夫和我现在在公寓里。","今天我们没有预料到任何访客。"]
@@ -3512,7 +3512,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_2668_0_spanish = ["Hola, habla Robertsky Peachman.","Mi hermano no se encuentra en casa."]
 						text_on_call = list_text_call_2668_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_2668_0_english = ["Hello, Robertsky Peachman speaking.","My brother is not at home."]
+						list_text_call_2668_0_english = ["Здравствуйте, говорит Робертски Пичман.","Моего брата нет дома."]
 						text_on_call = list_text_call_2668_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_2668_0_chinese = ["你好，我是Robertsky Peachman。","我的兄弟不在家。"]
@@ -3522,7 +3522,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_2668_1_spanish = ["Hola, habla Albertsky.","Mi hermano no se encuentra en casa."]
 						text_on_call = list_text_call_2668_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_2668_1_english = ["Hello, Albertsky speaking.","My brother is not at home."]
+						list_text_call_2668_1_english = ["Здравствуйте, говорит Альбертски.","Моего брата нет дома."]
 						text_on_call = list_text_call_2668_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_2668_1_chinese = ["你好，我是Albertsky。","我的兄弟不在家。"]
@@ -3532,7 +3532,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_2668_2_spanish = ["Hola, habla Robertsky Peachman.","Mi hermano y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_2668_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_2668_2_english = ["Hello, Robertsky Peachman speaking.", "My brother and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_2668_2_english = ["Здравствуйте, говорит Робертски Пичман.", "Мы с братом сейчас в квартире.","Сегодня мы не ждём никаких гостей."]
 						text_on_call = list_text_call_2668_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_2668_2_chinese = ["你好，我是Robertsky Peachman。","我和我兄弟现在在公寓里。","今天我们没有预料到任何访客。"]
@@ -3547,7 +3547,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1425_0_spanish = ["Hola, habla el Dr. W. Afton.","Mi prometida no se encuentra en casa.","¿Ya regresó?"]
 						text_on_call = list_text_call_1425_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1425_0_english = ["Hello, Dr. W. Afton speaking.","My fiancee is not at home.","Is she back?"]
+						list_text_call_1425_0_english = ["Здравствуйте, говорит Д-р В. Афтон.","Моей невесты нет дома.","Она уже вернулась?"]
 						text_on_call = list_text_call_1425_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1425_0_chinese = ["你好，我是Dr. W. Afton。","我的未婚妻不在家。","她已经回来了吗？"]
@@ -3557,7 +3557,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1425_1_spanish = ["Hola, habla Mia.","Mi prometido no se encuentra en casa."]
 						text_on_call = list_text_call_1425_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1425_1_english = ["Hello, Mia speaking.","My fiance is not at home."]
+						list_text_call_1425_1_english = ["Здравствуйте, говорит Миа.","Моего жениха нет дома."]
 						text_on_call = list_text_call_1425_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1425_1_chinese = ["你好，我是Mia。","我的未婚夫不在家。"]
@@ -3567,7 +3567,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1425_2_spanish = ["Hola, habla el Dr. W. Afton.","Mi prometida y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_1425_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1425_2_english = ["Hello, Dr. W. Afton speaking.", "My fiancee and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_1425_2_english = ["Здравствуйте, говорит Д-р В. Афтон.", "Я со своей невестой сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_1425_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1425_2_chinese = ["你好，我是Dr. W. Afton。","我和我的未婚妻现在在公寓里。","今天我们没有预料到任何访客。"]
@@ -3582,7 +3582,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_5513_spanish = ["Hola, habla Ciprianni.","No estoy esperando ninguna visita."]
 						text_on_call = list_text_call_5513_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_5513_english = ["Hello, Ciprianni speaking.","I'm not expecting any visitors today."]
+						list_text_call_5513_english = ["Здравствуйте, говорит Чиприанни.","Я не жду сегодня гостей."]
 						text_on_call = list_text_call_5513_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_5513_chinese = ["你好，我是Ciprianni。","我不在等待任何访客。"]
@@ -3597,7 +3597,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4122_spanish = ["Mmmm. Hola, habla Francis.","No estoy esperando ninguna visita."]
 						text_on_call = list_text_call_4122_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4122_english = ["Mmmm. Hello, Francis speaking.","I'm not expecting any visitors today."]
+						list_text_call_4122_english = ["Мммм. Здравствуйте, говорит Фрэнсис.","Я не жду сегодня гостей."]
 						text_on_call = list_text_call_4122_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4122_chinese = ["嗯嗯。你好，我是Francis。","我不在等待任何访客。"]
@@ -3612,7 +3612,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1346_0_spanish = ["Hola, habla Nacha.","Mi hija no se encuentra en casa.","¿Ya regresó?"]
 						text_on_call = list_text_call_1346_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1346_0_english = ["Hello, Nacha speaking.","My daughter is not at home.","Is she back?"]
+						list_text_call_1346_0_english = ["Здравствуйте, говорит Нача.","Моей дочери нет дома.","Она уже вернулась?"]
 						text_on_call = list_text_call_1346_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1346_0_chinese = ["你好，我是Nacha。","我女儿不在家。","她已经回来了吗？"]
@@ -3622,7 +3622,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1346_1_spanish = ["Mmmm. Hola, habla Anastacha.","Mi madre no se encuentra en casa.","Lo que sea."]
 						text_on_call = list_text_call_1346_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1346_1_english = ["Mmmm. Hello, Anastacha speaking.","My mother is not at home.","Whatever."]
+						list_text_call_1346_1_english = ["Мммм. Здравствуйте, говорит Анастача.","Моей мамы нет дома.","Вроде того."]
 						text_on_call = list_text_call_1346_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1346_1_chinese = ["嗯嗯。你好，我是Anastacha。","我妈妈不在家。","哦无论如何。"]
@@ -3632,7 +3632,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_1346_2_spanish = ["Hola, habla Nacha.","Mi hija y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_1346_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_1346_2_english = ["Hello, Nacha speaking.", "My daughter and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_1346_2_english = ["Здравствуйте, говорит Нача.", "Я со своей дочерью сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_1346_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_1346_2_chinese = ["你好，我是Nacha。","我和我的女儿现在在公寓里。","今天我们没有预料到任何访客。"]
@@ -3647,7 +3647,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4242_0_spanish = ["Hola, habla Mclooy Rudboys.","Mi hijo no se encuentra en casa.","¿Ya regresó?"]
 						text_on_call = list_text_call_4242_0_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4242_0_english = ["Hello, Mclooy Rudboys speaking.","My son is not at home.","Is he back?"]
+						list_text_call_4242_0_english = ["Здравствуйте, говорит Маклой Рудбойс.","Моего сына нет дома.","Он уже вернулся?"]
 						text_on_call = list_text_call_4242_0_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4242_0_chinese = ["你好，我是Mclooy Rudboys。","我的儿子不在家。","他已经回来了吗？"]
@@ -3657,7 +3657,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4242_1_spanish = ["Hola, habla Steven.","Mi padre no se encuentra en casa."]
 						text_on_call = list_text_call_4242_1_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4242_1_english = ["Hello, Steven speaking.","My father is not at home."]
+						list_text_call_4242_1_english = ["Здравствуйте, говорит Стивен.","Моего отца нет дома."]
 						text_on_call = list_text_call_4242_1_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4242_1_chinese =["你好，我是Steven。","我父亲不在家。"]
@@ -3667,7 +3667,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4242_2_spanish = ["Hola, habla Steven.","Mi padre y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_4242_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4242_2_english = ["Hello, Steven speaking.", "My father and I are in the apartment right now.","We are not expecting any visitors today."]
+						list_text_call_4242_2_english = ["Здравствуйте, говорит Стивен.","Я со своим отцом сейчас в квартире.","Мы не ждём сегодня гостей.""]
 						text_on_call = list_text_call_4242_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4242_2_chinese = ["你好，我是Steven。","我和我父亲现在在公寓里。","今天我们没有预料到任何访客。"]
@@ -3755,11 +3755,11 @@ func _spawn_character(character) -> void:
 		elif Global.language == ENGLISH_VALUE:
 			if random_excuse == 0:
 				if characters.get_child(0).name_char == "Mclooy_Rudboys":
-					characters.get_child(0).question_answers_spanish["today_list_ok"] = ["I'm not on today's list because I had to leave due to an emergency."]
+					characters.get_child(0).question_answers_english["today_list_ok"] = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за срочного дела."]
 				else:
-					characters.get_child(0).question_answers_english["today_list_ok"] = ["I'm not on today's list because I had to leave due to an emergency at work."]
+					characters.get_child(0).question_answers_english["today_list_ok"] = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за неотложного дела на работе."]
 			else:
-				characters.get_child(0).question_answers_english["today_list_ok"] = ["Am I not on today's list?","I think there is an error, I should be on the list.","Look at the list again."]
+				characters.get_child(0).question_answers_english["today_list_ok"] = ["Разве меня нет в сегодняшнем списке?","Я думаю, произошла ошибка, я должен быть в списке.","Посмотри в списке ещё раз."]
 		elif Global.language == CHINESE_VALUE:
 			if random_excuse == 0:
 				if characters.get_child(0).name_char == "Mclooy_Rudboys":
