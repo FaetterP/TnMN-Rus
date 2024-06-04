@@ -3667,7 +3667,7 @@ func _text_on_call_selection(number:int,n:int) -> void:
 						list_text_call_4242_2_spanish = ["Hola, habla Steven.","Mi padre y yo nos encontramos en este momento en el apartamento.","No esperamos ninguna visita hoy."]
 						text_on_call = list_text_call_4242_2_spanish.duplicate()
 					elif Global.language == ENGLISH_VALUE:
-						list_text_call_4242_2_english = ["Здравствуйте, говорит Стивен.","Я со своим отцом сейчас в квартире.","Мы не ждём сегодня гостей.""]
+						list_text_call_4242_2_english = ["Здравствуйте, говорит Стивен.","Я со своим отцом сейчас в квартире.","Мы не ждём сегодня гостей."]
 						text_on_call = list_text_call_4242_2_english.duplicate()
 					elif Global.language == CHINESE_VALUE:
 						list_text_call_4242_2_chinese = ["你好，我是Steven。","我和我父亲现在在公寓里。","今天我们没有预料到任何访客。"]

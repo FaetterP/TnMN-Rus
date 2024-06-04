@@ -12,9 +12,9 @@ const SFX_ADJUTS_LEVEL = 10
 const FAKE_NAME_01 = "CP3O"
 const FAKE_NAME_02 = "R2D2"
 const FAKE_NAME_03 = "XLR8"
-const FAKE_LAST_NAME_01 = "Aftton"
-const FAKE_LAST_NAME_02 = "Stone"
-const FAKE_LAST_NAME_03 = "Affton"
+const FAKE_LAST_NAME_01 = "Афттон"
+const FAKE_LAST_NAME_02 = "Стоун"
+const FAKE_LAST_NAME_03 = "Аффтон"
 const ENTRY_REASON_ENGLISH = "Я житель этого дома.\nМоя квартира номер 01 \nна третьем этаже."
 const ENTRY_REASON_SPANISH = "Soy residente del edificio.\nMi apartamento es el 01 del \ntercer piso."
 const ENTRY_REASON_CHINESE = "我是这栋楼的居民。\n我的公寓在三楼，是01号。"
@@ -627,7 +627,7 @@ func make_doppelganger() -> void:
 					doppel_appearance_text = question_answers_english["appearance_ok"]
 					doppel_dont_show_entry_text = ["Вот мой запрос на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
-					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за чрезвычайной ситуации на работе."]
+					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за срочного дела."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
 					doppel_its_all_ok_text = ["Итак, всё в порядке?", "Можешь открыть мне дверь?"]
 				elif Global.language == CHINESE_VALUE:
@@ -800,7 +800,7 @@ func make_doppelganger() -> void:
 					doppel_appearance_text = question_answers_english["appearance_ok"]
 					doppel_dont_show_entry_text = ["Вот мой запрос на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
-					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за чрезвычайной ситуации на работе."]
+					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за срочного дела."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
 					doppel_its_all_ok_text = ["Итак, всё в порядке?", "Можешь открыть мне дверь?"]
 				elif Global.language == CHINESE_VALUE:
@@ -829,7 +829,7 @@ func make_doppelganger() -> void:
 					doppel_appearance_text = question_answers_english["appearance_ok"]
 					doppel_dont_show_entry_text = ["Вот мой запрос на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
-					doppel_not_today_list_text = ["Я не в сегодняшнем списке, потому что мне пришлось уйти из-за чрезвычайной ситуации на работе."]
+					doppel_not_today_list_text = ["Я не в сегодняшнем списке, потому что мне пришлось уйти из-за срочного дела."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
 					doppel_its_all_ok_text = ["Итак, всё в порядке?", "Можешь открыть мне дверь?"]
 				elif Global.language == CHINESE_VALUE:
