@@ -13,8 +13,8 @@ const FAKE_NAME_01 = "Робертски"
 const FAKE_NAME_02 = "Альберртски"
 const FAKE_NAME_03 = "Аллбертски"
 const FAKE_LAST_NAME_01 = "Стилински"
-const FAKE_LAST_NAME_02 = "Пичманн"
-const FAKE_LAST_NAME_03 = "Пиччман"
+const FAKE_LAST_NAME_02 = "Персиковв"
+const FAKE_LAST_NAME_03 = "Перрсиков"
 const ENTRY_REASON_ENGLISH = "Я житель этого дома.\nМоя квартира 02 \nна первом этаже."
 const ENTRY_REASON_SPANISH = "Soy residente del edificio.\nMi apartamento es el 02 del \nprimer piso."
 const ENTRY_REASON_CHINESE = "我是这栋楼的居民。\n我的公寓是一楼的02号。"
@@ -30,7 +30,7 @@ const ENTRY_REASON_DOPPEL_01_SECOND_CHINESE = "我家一楼的住户。\n我的�
 const ENTRY_REASON_DOPPEL_02_ENGLISH = "Я не доппельгангер. \nЯ обычный человек \nс обычным поведением. \nПросто пусти меня, чтобы я занимался \nобычными человеческими делами."
 const ENTRY_REASON_DOPPEL_02_SPANISH = "No soy un doppelganger. \nSoy un humano normal con \ncomportamiento normal. \nSolo déjame entrar, para hacer \nmis actividades de humano normal."
 const ENTRY_REASON_DOPPEL_02_CHINESE = "我不是假人。\n我是一个正常的人类，有着正常的行为。\n请让我进去，进行我的正常人类活动。"
-const ENTRY_REASON_DOPPEL_02_SECOND_ENGLISH = "Я житель этого дома.\nЯ вернулся с работы банкира."
+const ENTRY_REASON_DOPPEL_02_SECOND_ENGLISH = "Я житель этого дома.\nЯ вернулся с работы банкиром."
 const ENTRY_REASON_DOPPEL_02_SECOND_SPANISH = "Soy residente del edificio.\nVengo de mi trabajo como banquero."
 const ENTRY_REASON_DOPPEL_02_SECOND_CHINESE = "我是这栋大楼的居民。\n我从银行家的工作回来。"
 const FAKE_ID_01 = "114652289730"
@@ -81,7 +81,7 @@ var current_text = []
 var is_doppelganger = false
 var checklist_values = []
 var question_answers_spanish = {"id_ok": ["¿Mi identificación?","No veo ningún problema con mi identificación."], "appearance_ok": ["¿Qué hay de raro con mi apariencia?","Todo está en regla con mi apariencia."], "entry_request_ok": ["¿Mi solicitud de ingreso?","Me parece que todo está perfecto con mi solicitud."], "today_list_ok": ["¿No estoy en la lista de hoy?","Me parece que debe haber un error, si debo estar en la lista.","Mire la lista nuevamente."]}
-var question_answers_english = {"id_ok": ["Моё удостоверение?", "Я не вижу ничего плохого в моём удостоверении."], "appearance_ok": ["Что не так с моим внешним видом?", "С моим внешним видом всё в порядке."], "entry_request_ok": ["Мой запрос на вход?", "Я думаю, что с моим запросом на вход всё в порядке."], "today_list_ok": ["Меня нет в сегодняшнем списке?", "Я думаю, что здесь ошибка, я должен быть в списке.", "Посмотри список ещё раз."]}
+var question_answers_english = {"id_ok": ["Моё удостоверение?", "Я не вижу ничего плохого в моём удостоверении."], "appearance_ok": ["Что не так с моим внешним видом?", "С моим внешним видом всё в порядке."], "entry_request_ok": ["Моё разрешение на вход?", "Я думаю, что с моим разрешением на вход всё в порядке."], "today_list_ok": ["Меня нет в сегодняшнем списке?", "Я думаю, что здесь ошибка, я должен быть в списке.", "Посмотри список ещё раз."]}
 var question_answers_chinese = {"id_ok": ["我的身份证？","我觉得我的身份证没什么问题。"], "appearance_ok": ["我的外貌有什么问题吗？","我觉得我的外貌一切都很好。"], "entry_request_ok": ["我的入场请求？","我觉得我的入场请求没有任何问题。"], "today_list_ok": ["我不是在今天的名单上吗？","一定是个错误，我应该在名单上。","再看一下名单。"]}
 var entry_request_reason = ""
 var hello_text_english = ["Добрый день."]
@@ -123,7 +123,7 @@ var doppel_appearance_no_hat_text = [""]
 var doppel_number 
 var doppel_reveal_flag = false
 var repeat_answer_spanish= ["Ya respondí su pregunta."]
-var repeat_answer_english = ["Я уже ответил на твой вопрос."]
+var repeat_answer_english = ["Я уже ответил на этот вопрос."]
 var repeat_answer_chinese = ["我已经回答了你的问题。"]
 var texts_changed = false
 
@@ -258,7 +258,7 @@ func change_current_text(n:int) -> void:
 						if Global.language == SPANISH_VALUE:
 							current_text += ["Lo siento, sí, olvidé mostrar mi solicitud de entrada."]
 						elif Global.language == ENGLISH_VALUE:
-							current_text += ["Извини, да, я забыл показать свой запрос на вход."]
+							current_text += ["Извини, да, я забыл показать своё разрешение на вход."]
 						elif Global.language == CHINESE_VALUE:
 							current_text += ["对不起，是的，我忘了出示我的入场申请。"]
 						if Global.language == SPANISH_VALUE:
@@ -479,9 +479,9 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Моё удостоверение?", "Я потерял его."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Моя голова?", "Это из-за того, что я постригся."]
-					doppel_dont_show_entry_text = ["Нужен запрос на вход?", "Мы же соседи, ты меня знаешь.", "Мне не нужен запрос на вход, чтобы попасть домой."]
+					doppel_dont_show_entry_text = ["Мне нужно разрешение на вход?", "Мы же соседи, ты меня знаешь.", "Мне не нужно рарешение, чтобы попасть домой."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
-					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось уйти из-за срочного дела."]
+					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось срочно уйти."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
 					doppel_its_all_ok_text = ["Итак, всё в порядке?", "Можешь открыть мне дверь?"]
 				elif Global.language == CHINESE_VALUE:
@@ -509,7 +509,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Моё удостоверение?", "Я думаю, что потерял его."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Черви?", "Нет, это не черви.", "Это прыщи."]
-					doppel_dont_show_entry_text = ["Мой запрос на вход?", "Я думаю, что потерял его."]
+					doppel_dont_show_entry_text = ["Моё разрешение на вход?", "Я думаю, что потерял его."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = question_answers_english["today_list_ok"]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -544,8 +544,8 @@ func make_doppelganger() -> void:
 				elif Global.language == ENGLISH_VALUE:
 					doppel_dont_show_id_text = ["Моё удостоверение?", "Что это такое?"]
 					doppel_id_text = question_answers_english["id_ok"]
-					doppel_appearance_text = ["Мой внешний вид?", "Я не вижу ничего странного в своём внешнем виде.", "Я хорошо его могу видеть своим одним глазом."]
-					doppel_dont_show_entry_text = ["Мой запрос на вход?", "Я думаю, что потерял его."]
+					doppel_appearance_text = ["Мой внешний вид?", "Я не вижу ничего странного в своём внешнем виде.", "Я могу хорошо его видеть своим одним глазом."]
+					doppel_dont_show_entry_text = ["Моё разрешение на вход?", "Я думаю, что потерял его."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = question_answers_english["today_list_ok"]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -620,9 +620,9 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = question_answers_english["appearance_ok"]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
-					doppel_not_today_list_text = ["Меня нет в сегодншнем списке, потому что мне пришлось уйти из-за срочного дела."]
+					doppel_not_today_list_text = ["Меня нет в сегодншнем списке, потому что мне пришлось срочно уйти."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
 					doppel_its_all_ok_text = ["Итак, всё в порядке?", "Можешь открыть мне дверь?"]
 				elif Global.language == CHINESE_VALUE:
@@ -729,9 +729,9 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Что не так с моим внешним видом?", "Внимательно посмотри на фотографии моих документов и сравни их со мной."]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
-					doppel_not_today_list_text = ["Меня нет в сегодншнем списке, потому что мне пришлось уйти из-за срочного дела."]
+					doppel_not_today_list_text = ["Меня нет в сегодншнем списке, потому что мне пришлось срочно уйти."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
 					doppel_its_all_ok_text = ["Итак, всё в порядке?", "Можешь открыть мне дверь?"]
 				elif Global.language == CHINESE_VALUE:
@@ -761,7 +761,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Что не так с моим внешним видом?", "Внимательно посмотри на фотографии моих документов и сравни их со мной."]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = ["Сегодняшний список?", "Я этого не учёл.", "Тебя не так-то легко одурачить.", "Из-за этого я хочу сожрать тебя ещё больше."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -793,7 +793,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Что не так с моим внешним видом?", "Внимательно посмотри на фотографии моих документов и сравни их со мной."]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = question_answers_english["today_list_ok"]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -824,7 +824,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Что не так с моим внешним видом?", "Внимательно посмотри фотографии моих документов и сравни их со мной."]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = question_answers_english["today_list_ok"]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -856,7 +856,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = question_answers_english["appearance_ok"]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = ["Я не в сегодншнем списке из-за срочного дела."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -885,7 +885,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = question_answers_english["appearance_ok"]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = ["Меня нет в сегодншнем списке из-за срочного дела."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
