@@ -77,8 +77,8 @@ func _process(_delta) -> void:
 func abducius() -> void:
 	id_photo = load("res://Assets/Graphics/Char_Abducius_Small_Photo.png")
 	entry_photo = load("res://Assets/Graphics/Char_Abducius_Long_Photo.png")
-	name_char = "Abducius"
-	last_name_char = "Morail"
+	name_char = "Адбуциус"
+	last_name_char = "Мораил"
 	number_id = "763764748675"
 	id_exp_date = "12/1968"
 	if Global.language == SPANISH_VALUE:
@@ -109,8 +109,8 @@ func abducius() -> void:
 		hello_text = ["Приветствую, человек."]
 		id_text = ["Я могу сейчас изуродовать твои глаза, кажется они плохо работают, или ты не видишь, что мое удостоверение в порядке."]
 		id_not_show_text = ["Вот мое удостоверение."]
-		entry_text = ["Мой запрос на вход идеальный."]
-		entry_not_show_text = ["Вот мой запрос на вход."]
+		entry_text = ["Моё разрешение на вход идеальное."]
+		entry_not_show_text = ["Вот моё разрешение на вход."]
 		appearance_text = ["Моя внешность? С моей внешностью все в отлично."]
 		today_list_text = ["Не трать мое время, человек. Конечно, я в списке."]
 		if randi_range(0,1) == 0:
@@ -118,7 +118,7 @@ func abducius() -> void:
 		else:
 			not_today_list_text = ["Должно быть, это ошибка, потому что я действительно должен быть в списке. Думаю, кто-то будет за это изуродован."]
 		exit_text = ["Наконец-то."]
-		repeat_question = ["Я уже ответил на твой вопрос, человек."]
+		repeat_question = ["Я уже ответил на этот вопрос, человек."]
 	else:
 		apart_number = "F01-03"
 		if randi_range(0,1) == 0:
@@ -148,13 +148,13 @@ func make_doppelganger() -> void:
 			random = randi_range(0,3)
 			match random:
 				0:
-					name_char = "Adbucius"
+					name_char = "Адбуциус"
 				1:
-					last_name_char = "Morait"
+					last_name_char = "Мораит"
 				2:
-					name_char = "Abduicius"
+					name_char = "Адиуициус"
 				_:
-					last_name_char = "Monail"
+					last_name_char = "Монаил"
 		1: #ID
 			random = randi_range(0,3)
 			match random:
@@ -293,12 +293,12 @@ func _record_update() -> void:
 			Global.doppel_captured_level += 1
 		else:
 			Global.chars_killed_level += 1
-			Global.neighbors_killed_info += "*Abducius"
+			Global.neighbors_killed_info += "*Адбуциус"
 			get_parent().get_parent().set_entity(true)
 	else:
 		if is_doppelganger:
 			Global.doppel_entered_level += 1
-			Global.doppels_info += "*Abducius: "
+			Global.doppels_info += "*Адбуциус: "
 			match doppel_number:
 				0:
 					if Global.language == SPANISH_VALUE:
@@ -318,7 +318,7 @@ func _record_update() -> void:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Fecha de expiración"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Дата просрочилась"
+						Global.doppels_info += "Срок действия"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "过期日期"
 				3:
@@ -346,7 +346,7 @@ func _record_update() -> void:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Logo DDD falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Неправильный логотип DDD"
+						Global.doppels_info += "Поддельный логотип DDD"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "伪造的DDD标志"
 			get_parent().get_parent().set_game_over(true)
