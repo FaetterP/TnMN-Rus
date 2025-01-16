@@ -226,9 +226,9 @@ func _record_update() -> void:
 		if is_42:
 			Global.neighbors_killed_info += "*42"
 		elif is_peach:
-			Global.neighbors_killed_info += "*Peach"
+			Global.neighbors_killed_info += "*Персик"
 		else:
-			Global.neighbors_killed_info += "*Nurse"
+			Global.neighbors_killed_info += "*Медсестра"
 		Global.entity_spawn = true
 
 func delete() -> void:
