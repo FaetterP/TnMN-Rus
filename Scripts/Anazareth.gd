@@ -327,14 +327,14 @@ func _record_update() -> void:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Nombre falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Неправильное имя"
+						Global.doppels_info += "Неверное имя"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的名字"
 				1:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Número de id falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Неправильный номер удостоверения"
+						Global.doppels_info += "Неверный номер удостоверения"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的身份证号码"
 				2:
