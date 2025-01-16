@@ -577,7 +577,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Извини, да, я забыл показать своё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = ["Что не так с моим внешним видом?", "Внимательно посмотри на фотографии моих документов и сравни их со мной."]
-					doppel_dont_show_entry_text = ["Извини, да, я забыл показать свой запрос на вход."]
+					doppel_dont_show_entry_text = ["Извини, да, я забыл показать своё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = ["Сегодняшний список?", "Я не учёл это.", "Тебя не так-то просто одурачить.", "Из-за этого я хочу сожрать тебя ещё больше."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -909,14 +909,14 @@ func _record_update() -> void:
 			Global.doppel_captured_level += 1
 		else:
 			Global.chars_killed_level += 1
-			Global.neighbors_killed_info += "*Albertsky Peachman"
+			Global.neighbors_killed_info += "*Альбертски Персиков"
 	else:
 		if !"Albertosky_Peachman" in Global.char_at_home_list:
 			Global.char_at_home_list.append("Albertosky_Peachman")
 			Global.char_out_home_list.erase("Albertosky_Peachman")
 		if is_doppelganger:
 			Global.doppel_entered_level += 1
-			Global.doppels_info += "*Albertsky: "
+			Global.doppels_info += "*Альбертски: "
 			match doppel_number:
 				0:
 					if Global.language == SPANISH_VALUE:

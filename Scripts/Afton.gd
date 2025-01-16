@@ -625,7 +625,7 @@ func make_doppelganger() -> void:
 					doppel_dont_show_id_text = ["Вот моё удостоверение."]
 					doppel_id_text = question_answers_english["id_ok"]
 					doppel_appearance_text = question_answers_english["appearance_ok"]
-					doppel_dont_show_entry_text = ["Вот мой запрос на вход."]
+					doppel_dont_show_entry_text = ["Вот моё разрешение на вход."]
 					doppel_entry_text = question_answers_english["entry_request_ok"]
 					doppel_not_today_list_text = ["Меня нет в сегодняшнем списке, потому что мне пришлось срочно уйти."]
 					doppel_today_list_text = question_answers_english["today_list_ok"]
@@ -851,14 +851,14 @@ func _record_update() -> void:
 			Global.doppel_captured_level += 1
 		else:
 			Global.chars_killed_level += 1
-			Global.neighbors_killed_info += "*Dr. W. Afton"
+			Global.neighbors_killed_info += "*Др. В. Афтон"
 	else:
 		if !"Dr_W_Afton" in Global.char_at_home_list:
 			Global.char_at_home_list.append("Dr_W_Afton")
 			Global.char_out_home_list.erase("Dr_W_Afton")
 		if is_doppelganger:
 			Global.doppel_entered_level += 1
-			Global.doppels_info += "*Afton: "
+			Global.doppels_info += "*Афтон: "
 			match doppel_number:
 				0:
 					if Global.language == SPANISH_VALUE:
