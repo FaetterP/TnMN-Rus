@@ -79,8 +79,8 @@ func _process(_delta) -> void:
 func Dagda() -> void:
 	id_photo = load("res://Assets/Graphics/Char_Dagda_Small_Photo.png")
 	entry_photo = load("res://Assets/Graphics/Char_Dagda_Long_Photo.png")
-	name_char = "Dagda"
-	last_name_char = "Crom Cruach"
+	name_char = "Дагда"
+	last_name_char = "Кром Круач"
 	number_id = "965845863219"
 	id_exp_date = "11/1975"
 	if Global.language == SPANISH_VALUE:
@@ -105,22 +105,22 @@ func Dagda() -> void:
 	elif Global.language == ENGLISH_VALUE:
 		apart_number = "F03-04"
 		if randi_range(0,1) == 0:
-			entry_request_reason = "I am a resident of this astral circle, I went out to scare some souls."
+			entry_request_reason = "Я житель этого астрального круга, вышел напугать несколько душ."
 		else:
-			entry_request_reason = "I am a resident of this astral circle, my apartment is 04 on the third floor."
-		hello_text = ["Greetings, human."]
-		id_text = ["My ID is perfect."]
-		id_not_show_text = ["Here is my ID."]  
-		entry_text = ["My entry request is perfect."]
-		entry_not_show_text = ["Here is my entry request."]
-		appearance_text = ["My appearance? Everything is perfect with my appearance."]
-		today_list_text = ["Don't waste my time, human. Of course I'm on the list."]
+			entry_request_reason = "Я житель этого астрального круга, моя квартира 04 на третьем этаже."
+		hello_text = ["Приветствую, человек."]
+		id_text = ["Моё удостоверение идеально."]
+		id_not_show_text = ["Вот моё удостоверение."]  
+		entry_text = ["Моё разрешение на вход идеально."]
+		entry_not_show_text = ["Вот моё разрешение на вход."]
+		appearance_text = ["Моя внешность? С ней всё идеально."]
+		today_list_text = ["Не трать моё время, человек. Конечно, я в списке."]
 		if randi_range(0,1) == 0:
-			not_today_list_text = ["I'm not on the list because I had to scare some souls in an emergency."]
+			not_today_list_text = ["Меня нет в списке, потому что мне пришлось срочно напугать несколько душ."]
 		else:
-			not_today_list_text = ["There must be a mistake because I should indeed be on the list."]
-		exit_text = ["Finally."]
-		repeat_question = ["I've already answered your question, human."]
+			not_today_list_text = ["Должна быть ошибка, потому что я точно должен быть в списке."]
+		exit_text = ["Наконец-то."]
+		repeat_question = ["Я уже ответил на этот вопрос, человек."]
 	else:
 		apart_number = "F03-04"
 		if randi_range(0,1) == 0:
@@ -150,13 +150,13 @@ func make_doppelganger() -> void:
 			random = randi_range(0,3)
 			match random:
 				0:
-					name_char = "Dajda"
+					name_char = "Дажда"
 				1:
-					last_name_char = "Crom Crvach"
+					last_name_char = "Кром Крвач"
 				2:
-					name_char = "Dogda"
+					name_char = "Догда"
 				_:
-					last_name_char = "Cron Cruach"
+					last_name_char = "Крон Круач"
 		1: #ID
 			random = randi_range(0,3)
 			match random:
@@ -297,60 +297,60 @@ func _record_update() -> void:
 			Global.doppel_captured_level += 1
 		else:
 			Global.chars_killed_level += 1
-			Global.neighbors_killed_info += "*Dagda"
+			Global.neighbors_killed_info += "*Дагда"
 			get_parent().get_parent().set_entity(true)
 	else:
 		if is_doppelganger:
 			Global.doppel_entered_level += 1
-			Global.doppels_info += "*Dagda: "
+			Global.doppels_info += "*Дагда: "
 			match doppel_number:
 				0:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Nombre falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong name"
+						Global.doppels_info += "Неверное имя"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的名字"
 				1:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Número de id falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong ID number"
+						Global.doppels_info += "Неверный номер удостоверения"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的身份证号码"
 				2:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Fecha de expiración"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Expiration date"
+						Global.doppels_info += "Срок действия"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "过期日期"
 				3:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Costuras"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Seams"
+						Global.doppels_info += "Швы"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "缝合"
 				4:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Ojos falsos"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong eyes"
+						Global.doppels_info += "Неправильные глаза"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的眼睛"
 				5:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Cicatriz"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Scar"
+						Global.doppels_info += "Шрам"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "疤痕"
 				_:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Logo DDD falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Fake DDD logo"
+						Global.doppels_info += "Поддельный логотип DDD"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "伪造的DDD标志"
 			get_parent().get_parent().set_game_over(true)
