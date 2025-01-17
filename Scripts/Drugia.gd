@@ -85,8 +85,8 @@ func drugia() -> void:
 		earrings.visible = false
 	id_photo = load("res://Assets/Graphics/Char_Drugia_Small_Photo.png")
 	entry_photo = load("res://Assets/Graphics/Char_Drugia_Long_Photo.png")
-	name_char = "Drugia"
-	last_name_char = "Fleuretty"
+	name_char = "Другиа"
+	last_name_char = "Флеюретти"
 	number_id = "116682111989"
 	id_exp_date = "04/1968"
 	if Global.language == SPANISH_VALUE:
@@ -112,23 +112,23 @@ func drugia() -> void:
 	elif Global.language == ENGLISH_VALUE:
 		apart_number = "F01-01"
 		if randi_range(0,1) == 0:
-			entry_request_reason = "I am a resident of this astral circle, I went out to provoke some nightmares."
+			entry_request_reason = "Я житель этого астрального круга, я вышел, чтобы вызвать несколько кошмаров."
 		else:
-			entry_request_reason = "I am a resident of this astral circle, my apartment is number 01 on the first floor."
-		hello_text = ["Behold me, mortal."]
-		id_text = ["My ID is correct, perhaps I should design some nightmares especially for you."]
-		id_not_show_text = ["Here is my ID."]  
-		entry_text = ["My entry request is perfect."]
-		entry_not_show_text = ["Here is my entry request."]
-		appearance_text = ["My appearance? It's much better than yours for sure."]
-		appearance_text_earrings = ["About my appearance, I hope you're referring to my earrings, I forgot them at home."]
-		today_list_text = ["Someone will have many nightmares if I'm not on the list today."]
+			entry_request_reason = "Я житель этого астрального круга, моя квартира номер 01 на первом этаже."
+		hello_text = ["Созерцай меня, смертный."]
+		id_text = ["Моё удостоверение в порядке, возможно, мне стоит придумать для тебя особенные кошмары."]
+		id_not_show_text = ["Вот моё удостоверение."]  
+		entry_text = ["моё разрешение на вход идеален."]
+		entry_not_show_text = ["Вот моё разрешение на вход."]
+		appearance_text = ["Моя внешность? Уж точно лучше твоей."]
+		appearance_text_earrings = ["Что касается моей внешности, надеюсь, ты имеешь в виду мои серьги, я забыла их дома."]
+		today_list_text = ["Кто-то увидит много кошмаров, если меня не будет в сегодняшнем списке."]
 		if randi_range(0,1) == 0:
-			not_today_list_text = ["I'm not on today's list because I left late and they didn't add me."]
+			not_today_list_text = ["Меня нет в сегодняшнем списке, потому что я вышла поздно, и меня не добавили."]
 		else:
-			not_today_list_text = ["There must be a mistake because I should be on the list. I think someone will sleep poorly tonight."]
-		exit_text = ["Finally."]
-		repeat_question = ["I've already answered your question, mortal."]
+			not_today_list_text = ["Должна быть ошибка, потому что я должна быть в списке. Думаю, кто-то сегодня будет плохо спать."]
+		exit_text = ["Наконец-то."]
+		repeat_question = ["Я уже ответила на этот вопрос, смертный."]
 	else:
 		apart_number = "F01-01"
 		if randi_range(0,1) == 0:
@@ -159,13 +159,13 @@ func make_doppelganger() -> void:
 			random = randi_range(0,3)
 			match random:
 				0:
-					name_char = "Durgia"
+					name_char = "Дургиа"
 				1:
-					last_name_char = "Fleurretty"
+					last_name_char = "Флеюрретти"
 				2:
-					last_name_char = "Flueretty"
+					last_name_char = "Флюеретти"
 				_:
-					last_name_char = "Flereutty"
+					last_name_char = "Флереутти"
 		1: #ID
 			random = randi_range(0,3)
 			match random:
@@ -322,60 +322,60 @@ func _record_update() -> void:
 			Global.doppel_captured_level += 1
 		else:
 			Global.chars_killed_level += 1
-			Global.neighbors_killed_info += "*Drugia"
+			Global.neighbors_killed_info += "*Другиа"
 			get_parent().get_parent().set_entity(true)
 	else:
 		if is_doppelganger:
 			Global.doppel_entered_level += 1
-			Global.doppels_info += "*Drugia: "
+			Global.doppels_info += "*Другиа: "
 			match doppel_number:
 				0:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Nombre falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong name"
+						Global.doppels_info += "Неверное имя"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的名字"
 				1:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Número de id falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong ID number"
+						Global.doppels_info += "Неверный номер удостоверения"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "错误的身份证号码"
 				2:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Número de ojos"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Number of eyes"
+						Global.doppels_info += "Количество глаз"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "眼睛的数量"
 				3:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Nariz falsa"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Wrong nose"
+						Global.doppels_info += "Неправильный нос"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "假鼻子"
 				4:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Espiral de las manos"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Spiral of the hands"
+						Global.doppels_info += "Спиральные руки"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "手的螺旋"
 				5:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Número de dedos"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Number of fingers"
+						Global.doppels_info += "Количество пальцев"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "手指的数量"
 				_:
 					if Global.language == SPANISH_VALUE:
 						Global.doppels_info += "Logo DDD falso"
 					elif Global.language == ENGLISH_VALUE:
-						Global.doppels_info += "Fake DDD logo"
+						Global.doppels_info += "Поддельный логотип DDD"
 					elif  Global.language == CHINESE_VALUE:
 						Global.doppels_info += "伪造的DDD标志"
 			get_parent().get_parent().set_game_over(true)
